@@ -183,14 +183,14 @@ public class AVLTree<T extends Comparable<T>> {
         System.out.println();
         
         AVLTree leftRightTree = new AVLTree();
-        System.out.println("left-right rotation before:");
+        System.out.println("left-right rotation before: 9");
         leftRightTree.add(10);
         leftRightTree.add(11);
         leftRightTree.add(7);
         leftRightTree.add(8);
         leftRightTree.add(6);
         leftRightTree.printTree();
-        System.out.println("left-right rotation after:");
+        System.out.println("left-right rotation after: 9");
         leftRightTree.add(9);
         leftRightTree.printTree();
         
